@@ -17,7 +17,7 @@ const Header = () => {
 
 	const handlelogout = ()=>{
 		dispatch(userActions.logout());
-		history('/')
+		history('/login')
 	}
   return (
     <header>
