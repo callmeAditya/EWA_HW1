@@ -27,7 +27,7 @@
             "description": "Holder",
             "price": 40,
             "image":"/images/lighting/accessory1.webp",
-            "id":"acc01"
+            "id":"acc02"
           }
         ]
       },
@@ -49,14 +49,14 @@
             "description": "Wires",
             "price": 40,
             "image":"/images/lighting/accessory2.jpeg",
-            "id":"acc01"
+            "id":"acc03"
           },
           {
             "type": "holder",
             "description": "Holder",
             "price": 40,
             "image":"/images/lighting/accessory1.webp",
-            "id":"acc01"
+            "id":"acc04"
           }
         ]
       },
@@ -78,14 +78,14 @@
             "description": "Wires",
             "price": 40,
             "image":"/images/lighting/accessory2.jpeg",
-            "id":"acc01"
+            "id":"acc05"
           },
           {
             "type": "holder",
             "description": "Holder",
             "price": 40,
             "image":"/images/lighting/accessory1.webp",
-            "id":"acc01"
+            "id":"acc06"
           }
         ]
       },
@@ -107,14 +107,14 @@
             "description": "Wires",
             "price": 40,
             "image":"/images/lighting/accessory2.jpeg",
-            "id":"acc01"
+            "id":"acc07"
           },
           {
             "type": "holder",
             "description": "Holder",
             "price": 40,
             "image":"/images/lighting/accessory1.webp",
-            "id":"acc01"
+            "id":"acc08"
           }
         ]
       },
@@ -136,14 +136,14 @@
             "description": "Wires",
             "price": 40,
             "image":"/images/lighting/accessory2.jpeg",
-            "id":"acc01"
+            "id":"acc09"
           },
           {
             "type": "holder",
             "description": "Holder",
             "price": 40,
             "image":"/images/lighting/accessory1.webp",
-            "id":"acc01"
+            "id":"acc011"
           }
         ]
       },
@@ -165,14 +165,14 @@
             "description": "Wires",
             "price": 40,
             "image":"/images/lighting/accessory2.jpeg",
-            "id":"acc01"
+            "id":"acc012"
           },
           {
             "type": "holder",
             "description": "Holder",
             "price": 40,
             "image":"/images/lighting/accessory1.webp",
-            "id":"acc02"
+            "id":"acc022"
           }
         ]
       }
@@ -198,14 +198,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory1.jpg",
-            "id": "acc01"
+            "id": "acc024"
           },
           {
             "type": "Wall mount",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpg",
-            "id": "acc02"
+            "id": "acc023"
           }
         ]
       },
@@ -227,14 +227,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory1.jpg",
-            "id": "acc01"
+            "id": "acc025"
           },
           {
             "type": "Wall mount",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpg",
-            "id": "acc02"
+            "id": "acc026"
           }
         ]
       },
@@ -256,14 +256,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory1.jpg",
-            "id": "acc01"
+            "id": "acc0127"
           },
           {
             "type": "Wall mount",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpg",
-            "id": "acc02"
+            "id": "acc028"
           }
         ]
       },
@@ -285,14 +285,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory1.jpg",
-            "id": "acc01"
+            "id": "acc0100"
           },
           {
             "type": "Wall mount",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpg",
-            "id": "acc02"
+            "id": "acc0101"
           }
         ]
       },
@@ -314,14 +314,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory1.jpg",
-            "id": "acc01"
+            "id": "acc0102"
           },
           {
             "type": "Wall mount",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpg",
-            "id": "acc02"
+            "id": "acc0103"
           }
         ]
       },
@@ -343,14 +343,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory1.jpg",
-            "id": "acc01"
+            "id": "acc0104"
           },
           {
             "type": "Wall mount",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpg",
-            "id": "acc02"
+            "id": "acc0105"
           }
         ]
       }
@@ -376,14 +376,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/doorbells/accessory1.webp",
-            "id": "acc01"
+            "id": "acc0106"
           },
           {
             "type": "Wires",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpeg",
-            "id": "acc02"
+            "id": "acc0107"
           }
         ]
       },
@@ -405,14 +405,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/doorbells/accessory1.webp",
-            "id": "acc01"
+            "id": "acc0108"
           },
           {
             "type": "Wires",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpeg",
-            "id": "acc02"
+            "id": "acc01101"
           }
         ]
       },
@@ -434,14 +434,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/doorbells/accessory1.webp",
-            "id": "acc01"
+            "id": "acc0109"
           },
           {
             "type": "Wires",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpeg",
-            "id": "acc02"
+            "id": "acc01120"
           }
         ]
       },
@@ -463,14 +463,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/doorbells/accessory1.webp",
-            "id": "acc01"
+            "id": "acc01122"
           },
           {
             "type": "Wires",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpeg",
-            "id": "acc02"
+            "id": "acc01156"
           }
         ]
       },
@@ -492,7 +492,7 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/doorbells/accessory1.webp",
-            "id": "acc01"
+            "id": "acc011676"
           },
           {
             "type": "Wires",
@@ -521,14 +521,14 @@
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/doorbells/accessory1.webp",
-            "id": "acc01"
+            "id": "acc0176867"
           },
           {
             "type": "Wires",
             "description": "Lorem ipsum magnate",
             "price": 40,
             "image":"/images/speaker/accessory2.jpeg",
-            "id": "acc02"
+            "id": "acc02343244534"
           }
         ]
       }
@@ -717,7 +717,7 @@
     "header": "doorlock",
     "data": [
       {
-        "type":"doorlocks",
+        "type":"doorlock",
         "brand": "Yale",
         "maker": "Yale",
         "name": "Yale Assure DigiLock",
@@ -741,7 +741,7 @@
         ]
       },
       {
-        "type":"doorlocks",
+        "type":"doorlock",
         "brand": "Kwikset",
         "maker": "Kwikset",
         "name": "Kwikset Halo",
@@ -764,7 +764,7 @@
         ]
       },
       {
-        "type":"doorlocks",
+        "type":"doorlock",
         "brand": "Schlage",
         "maker": "Schlage",
         "name": "Schlage Deadbolt",
@@ -787,7 +787,7 @@
         ]
       },
       {
-        "type":"doorlocks",
+        "type":"doorlock",
         "brand": "SwitchBot",
         "maker": "SwitchBot",
         "name": "SwitchBot Smart Lock",
@@ -810,7 +810,7 @@
         ]
       },
       {
-        "type":"doorlocks",
+        "type":"doorlock",
         "brand": "Ultraloq",
         "maker": "Ultraloq",
         "name": "Ultraloq U-Bolt",
@@ -833,7 +833,7 @@
         ]
       },
       {
-        "type":"doorlocks",
+        "type":"doorlock",
         "brand": "Wyze",
         "maker": "Wyze",
         "name": "Wyze Ultra",

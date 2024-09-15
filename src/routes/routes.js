@@ -11,7 +11,7 @@ const routes = [
   {
     id: 100,
     parent: null,
-    path: "",
+    path: "/home",
     exact: true,
     component: Homepage,
   },

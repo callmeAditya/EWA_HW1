@@ -108,7 +108,7 @@ const Account =()=>{
     const getDate=(date)=>{
       
         const d = new Date(date);
-        console.log(date);
+        // console.log(date);
         
         
         // return ""
@@ -116,9 +116,16 @@ const Account =()=>{
     }
 
     const handlecancel=(item)=>{
-        console.log(item);
+        // console.log(item);
         
        dispatch( cartActions.cancelorder(item))
+    }
+
+    const cancancel=(date)=>{
+        const curr = new Date();
+        const later = new Date(date);
+        
+        return curr.getDate() > later.getDate();
     }
 
     return(
@@ -222,7 +229,19 @@ const Account =()=>{
                         {
                             orders?.filter(o=>o?.userid === isAuthenticated?.userid).map((item,key)=>(
                                 <div key={key}>
-                                    Your order with Order#{item?.oid}:
+                                   <span> Your order with Order# {item?.oid} </span>
+                                   <p>Arriving at: </p>
+                                   {
+                                    item?.mode === 'store-picker' ?
+                                    <div>
+                                        {item?.store}
+                                        </div>
+                                        :<div>
+                                            <p>{item?.street}</p>
+                                            <p>{item?.city}</p>
+                                            </div>
+                                   }
+
                                     <table>
                                         <thead>
                                             <tr>
@@ -230,32 +249,28 @@ const Account =()=>{
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        {
-                                            item?.order?.products?.map((ord,k)=>(
-                                                <tr key={k}>
-                                                    <td> <img style={{width:'100px'}}  src={ord?.image}/> </td>
-                                                    <td> <h3>{ord?.name ? ord?.name : ord?.type}</h3></td>
-                                                    <td>  <p>${ord?.price}</p></td>
-                                                    {/* <td>Arriving on:{getDate(item?.datearrival)} </td>
+                                            {
+                                                item?.order?.products?.map((ord, k) => (
+                                                    <tr key={k}>
+                                                        <td> <img style={{ width: '100px' }} src={ord?.image} /> </td>
+                                                        <td> <h3>{ord?.name ? ord?.name : ord?.type}</h3></td>
+                                                        <td>  <p>${ord?.price}</p></td>
+                                                        {/* <td>Arriving on:{getDate(item?.datearrival)} </td>
                                                     <td>Cancel before:{getDate(item?.datacancel)} </td>
                                                     <td><button onClick={()=>handlecancel(item)} >Remove</button></td> */}
 
-                                                </tr>
-                                            ))
-                                        }
-                                        <tr>
-                                            <td></td><td>Total:</td><td><span> {parseFloat((item?.order?.total).trim())}</span></td><td>Arriving on:{getDate(item?.datearrival)} </td>
-                                                    <td>Cancel before:{getDate(item?.datacancel)} </td>
-                                                    <td><button onClick={()=>handlecancel(item)} >Remove</button></td>
-                                        </tr>
+                                                    </tr>
+                                                ))
+                                            }
+                                            <tr>
+                                                <td></td><td>Total:</td><td><span> ${parseFloat((item?.order?.total).trim())}</span></td><td>Arriving on:{getDate(item?.datearrival)} </td>
+                                                <td>Cancel before:{getDate(item?.datacancel)} </td>
+                                                <td><button disabled={cancancel(item?.datacancel)} onClick={() => handlecancel(item)} >Cancel order</button></td>
+                                            </tr>
 
                                         </tbody>
-                                        </table>
+                                    </table>
                                         
-                                        
-                                    
-
-
                                 </div>
                             ))
                         }

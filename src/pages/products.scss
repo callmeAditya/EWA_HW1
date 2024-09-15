@@ -6,6 +6,7 @@
     border: 1px solid;
     border-radius: 10px;
     margin-bottom: 25px;
+    cursor: pointer;
     
     img{
         max-width: 100%;
@@ -105,5 +106,23 @@
     button{
         background-color: rgb(8, 99, 8);
     }
+}
 
+
+.neworder{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+
+    button{
+        width: 100px;
+    }
 }

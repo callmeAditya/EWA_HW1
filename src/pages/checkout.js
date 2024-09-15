@@ -87,7 +87,7 @@ const Checkout = ()=>{
         const oid = parseInt(Math.random()*10000);
 
         // alert(oid)
-        dispatch(cartActions.placeorder({...frm, oid, order,...isAuthenticated, dateplaced:new Date(), datearrival: new Date(+new Date + 12096e5), datacancel: new Date(+new Date + 432e6)}));
+        dispatch(cartActions.placeorder({...frm, oid, delivery: deliv,  order,...isAuthenticated, dateplaced:new Date(), datearrival: new Date(+new Date + 12096e5), datacancel: new Date(+new Date + 432e6)}));
         
     }
 
@@ -99,16 +99,20 @@ const Checkout = ()=>{
             // placeorder
         }));
 
-        history('/');
+        history('/home');
     }
 
     return (
         <>
        {
-            neworder ? <div>
+            neworder ? <div className="neworder flexcol">
+                <h4>Whoo Hoo!</h4>
+                <h5>
+
                 Your order is placed.
-                Your order id is:
-                <span>{neworder?.oid}</span>
+                Your order id is: <span>{neworder?.oid}</span>
+                </h5>
+               
                 <button onClick={handleok} >OK</button>
             </div> :
             <>
@@ -128,11 +132,15 @@ const Checkout = ()=>{
         </div>
         {
             deliv && (deliv === 'store-picker' ?
-            <div>
-
-                <label for="stores">Choose Stores</label>
-
-                    <select name="store" id="stores" onChange={handlechange} >
+            <div style={{width:'500px'}} className="flexcol">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>  
+                            <label for="stores">Choose Stores</label>
+                            </td>
+                            <td>
+                            <select name="store" id="stores" onChange={handlechange} >
                     <option value="">Select</option>
                     <option value="60610">Bellward Avenue, Chicago 60610</option>
                     <option value="60611">Clark/Lake, Chicago 60611</option>
@@ -145,22 +153,45 @@ const Checkout = ()=>{
                     <option value="60618">OakStreet Chicago 60618</option>
                     <option value="60619">West Loop Chicago 60619</option>
                 </select>
-                <label for="credit" >Enter Credit Card Info:
-                <input placeholder="credit card" type="text" name="credit" onChange={handlechange} value={frm['credit']} />
-                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="credit" >Enter Credit Card Info:</label></td>
+                            <td> <input style={{width:'100%'}} placeholder="credit card" type="text" name="credit" onChange={handlechange} value={frm['credit']} /></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <button type="submit" onClick={handlesubmit} >Submit</button>
 
             </div>
-            : <div>
-                <label for="street">Street: <input placeholder="street" type="text" name="street" onChange={handlechange} value={frm['street']} />  </label>    
-                <label for="city">City: <input placeholder="city" type="text" name="city" onChange={handlechange} value={frm['city']} />  </label>    
-                <label for="state">State: <input placeholder="state" type="text" name="state" onChange={handlechange} value={frm['state']} />  </label>    
-                <label for="zipcode">Zip Code: <input placeholder="zipcode" type="text" name="zipcode" onChange={handlechange} value={frm['zipcode']} />  </label>    
-                <label for="credit" >Enter Credit Card Info:
-                <input placeholder="credit card" type="text" name="credit" onChange={handlechange} value={frm['credit']} />
-                </label>
+            : <div style={{width:'400px'}} className="flexcol">
+                <table>
+                <tbody>
+                    <tr>
+                        <td>   <label for="street">Street:</label></td><td><input placeholder="street" type="text" name="street" onChange={handlechange} value={frm['street']} /> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="city">City:</label> </td><td> <input placeholder="city" type="text" name="city" onChange={handlechange} value={frm['city']} /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State:</label> </td><td><input placeholder="state" type="text" name="state" onChange={handlechange} value={frm['state']} />  </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zipcode">Zip Code:</label> </td><td> <input placeholder="zipcode" type="text" name="zipcode" onChange={handlechange} value={frm['zipcode']} />  </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="credit" >Enter Credit Card Info:</label></td><td><input placeholder="credit card" type="text" name="credit" onChange={handlechange} value={frm['credit']} /></td>
+                    </tr>
+                    </tbody>
+                </table>
+                
+               
+                
                 <button type="submit" onClick={handlesubmit}>Submit</button>
-            </div>)
+            </div>
+            
+        )
         }
         
         

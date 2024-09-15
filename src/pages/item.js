@@ -23,7 +23,20 @@ const Item = () => {
 
     },[products])
 
-    dispatch(cartActions.addItem(item));
+
+    const handleaAddItem = (item) => {
+        // console.log(item);
+        let obj = {
+          type: typeofprod,
+          maker: item?.brand,
+          price: item?.price,
+          name: item?.name,
+          id: item?.id,
+        };
+    
+        dispatch(cartActions.addItem(item));
+      };
+    
   
 
   return (

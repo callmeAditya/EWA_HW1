@@ -1,11 +1,7 @@
 import { productTypes } from "../types/productTypes";
 // import userData from '../../data/users.json'
-import lightings from '../../data/lightings.json';
 import products from '../../data/products.json';
-import speakers from '../../data/speakers.json';
 let initialState = { 
-    lightings: [...lightings.data],
-    speakers: [...speakers.data],
     products: [...products]
 }
 

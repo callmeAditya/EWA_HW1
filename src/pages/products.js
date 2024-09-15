@@ -117,8 +117,9 @@ const Products = () => {
         {checkpagetype(maker).map((item, id) => (
           <div className="col-lg-4">
             <div
-              onClick={() =>
+              onClick={() =>{
                 history(`/product/item?type=${item?.type}&maker=${item?.brand}&id=${item?.id}`)
+            }
               }
               className="prod_box"
             >

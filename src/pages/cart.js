@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { cartActions } from "../redux/actions/cart";
 import { useNavigate } from "react-router-dom";
+import _ from "lodash";
 
 
 const Cart = ()=>{
     const cart = useSelector(state=>state?.cartReducer?.cart);
+    const getorder = useSelector(state=>state?.cartReducer?.order)
     const [items, setItem] = useState([]);
     const [total,setTotal] = useState(0);
     const [discount, setDiscount]= useState(0);
@@ -23,9 +25,18 @@ const Cart = ()=>{
             sum+=c?.price;
         })
         setTotal(sum);
-    
-        
     },[cart])
+
+    useEffect(()=>{
+        if(!_.isEmpty(getorder)){
+            setItem([...getorder?.products]);
+            setDid([...getorder?.did]);
+            setWid([...getorder?.wid]);
+            setWarranty(getorder?.warranty);
+            setDiscount(getorder?.discount);
+
+        }
+    },[getorder])
 
     const remove = (data)=>{
         dispatch(cartActions.removeItem(data));
@@ -36,7 +47,11 @@ const Cart = ()=>{
             user:'aditya rana',
             name:'aditya rana',
             total:document.getElementById('totalid')?.innerText,
-            products:[...data]
+            products:[...data],
+            warranty,
+            discount,
+            wid,
+            did,
         }
         console.log(document.getElementById('totalid')?.innerText);
         
@@ -47,18 +62,17 @@ const Cart = ()=>{
 
     return(
         <>
-        {/* {cart?.length || 0}
-        {JSON.stringify(cart)}
-        {items?.length} */}
-        <h3>Cart {cart?.length}</h3>
-        <div className="row">
+        
+        <h3>Cart</h3>
+        {
+            items?.length >0 ?  <div className="row">
             <div className="col-lg-6 col-md-6 cartbox">
                 {
                     items?.map((data,key)=>(
                     <div key={key} className="item_box" style={{width:'500px'}}>
                         <img 
-                        src="https://t3.ftcdn.net/jpg/01/05/57/38/240_F_105573812_cvD4P5jo6tMPhZULX324qUYFbNpXlisD.jpg"
-                        // src={data?.image} 
+                        // src="https://t3.ftcdn.net/jpg/01/05/57/38/240_F_105573812_cvD4P5jo6tMPhZULX324qUYFbNpXlisD.jpg"
+                        src={data?.image} 
                         />
                         <p>{data?.description}</p>
                         <div className="flexrow" style={{justifyContent:'space-between'}}>
@@ -86,15 +100,22 @@ const Cart = ()=>{
 
                 <h3>Cart Total</h3>
                  <span>Product Total:   ${total}</span>
-                 {discount>0 && <span>-${discount}</span>}
-                 {warranty>0 && <span>+${warranty}</span>}
+                 {discount>0 && <span>Discount applied:  -${discount}</span>}
+                 {warranty>0 && <span>Warranty applied:  +${warranty}</span>}
                  {total>0 && <span>Tax: 10.25%</span>}
                  {<span>Your total: $<span id="totalid"> {parseFloat((total-discount+warranty)*1.1025).toFixed(2)}</span></span>}
-                 <button className="btnn" style={{width:'200px'}} onClick={()=>{addorder(items)}} >Checkout</button>
+                 <button disabled={_.isEmpty(items)} className="btnn" style={{width:'200px'}} onClick={()=>{addorder(items)}} >Checkout</button>
                 </div>
             </div>
 
         </div>
+        :<div className="neworder flexcol" >
+            <h4>Your Cart is Empty</h4>
+            <h5>Add products by</h5>
+            <h5>Clicking categories</h5>
+        </div>
+        }
+       
         </>
     )
 }
