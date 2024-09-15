@@ -21,11 +21,13 @@ export const placeorder = (item)=>{
         dispatch({type:cartTypes.PLACED_ORDER_IN_CART,payload:item})
     }
 }
-export const removeorder = (item)=>{
+export const cancelorder = (item)=>{
     return dispatch=>{
-        dispatch({type:cartTypes.REMOVE_ITEM_IN_CART,payload:item})
+        dispatch({type:cartTypes.CANCEL_ORDER,payload:item})
     }
 }
+
+
 export const emptycart = (item)=>{
     return dispatch=>{
         dispatch({type:cartTypes.EMPTY_STATE_CART,payload:item})
@@ -35,8 +37,8 @@ export const emptycart = (item)=>{
 export const cartActions = {
     addItem,
     addorder,
-    removeorder,
     removeItem,
     placeorder,
-    emptycart
+    emptycart,
+    cancelorder
 };

@@ -9,6 +9,7 @@ const Checkout = ()=>{
     const [deliv, setDelivery] = useState(null);
     const order = useSelector((state)=>state?.cartReducer?.order)
     const neworder = useSelector(state=>state?.cartReducer?.neworder);
+    const isAuthenticated = useSelector(state=>state?.userReducer?.isAuthenticated);
     const [frm, setFrm]=useState({
         street:'',
         city:'',
@@ -86,7 +87,7 @@ const Checkout = ()=>{
         const oid = parseInt(Math.random()*10000);
 
         // alert(oid)
-        dispatch(cartActions.placeorder({...frm, oid, order}));
+        dispatch(cartActions.placeorder({...frm, oid, order,...isAuthenticated, dateplaced:new Date(), datearrival: new Date(+new Date + 12096e5), datacancel: new Date(+new Date + 432e6)}));
         
     }
 
@@ -164,7 +165,7 @@ const Checkout = ()=>{
         
         
         {
-            JSON.stringify(frm)
+            // JSON.stringify(frm)
         }
             </>
         }

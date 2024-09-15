@@ -16,10 +16,12 @@ const Item=()=>{
 
     useEffect(()=>{
 // console.log( location.pathname);
-    const obj = products?.filter(item=>item?.header === typeofprod)[0];
+    const obj = products?.find(item=>item?.header === query?.type);
+    console.log(obj);
+    
     setItem([...obj?.data?.filter(item=>item?.brand===query?.maker && item?.id === query?.id)]);
 
-    },[])
+    },[products])
 
 
     const handleaAddItem=(item)=>{
@@ -39,15 +41,15 @@ const Item=()=>{
     return (
         <div className="flexcenter flexcol" style={{alignItems:'center'}}>
             {/* {path?.split('/item')[0].substring(1)} */}
-            {/* {JSON.stringify(item)} */}
+           
             {/* {query?.maker}{query?.id} */}
             {
                 item.map((data,key)=>(
                     <>
                     <div key={key} className="item_box">
                         <img 
-                        src="https://t3.ftcdn.net/jpg/01/05/57/38/240_F_105573812_cvD4P5jo6tMPhZULX324qUYFbNpXlisD.jpg"
-                        // src={data?.image} 
+                        // src="https://t3.ftcdn.net/jpg/01/05/57/38/240_F_105573812_cvD4P5jo6tMPhZULX324qUYFbNpXlisD.jpg"
+                        src={data?.image} 
                         />
                         <p>{data?.description}</p>
                         <div className="flexrow" style={{justifyContent:'space-between'}}>

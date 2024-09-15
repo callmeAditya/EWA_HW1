@@ -10,7 +10,7 @@ const Homepage = ()=>{
    
 
 
-    <div id="body" class="width">
+    <div id="body" className="width">
 
 		
     

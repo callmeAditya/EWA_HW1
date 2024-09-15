@@ -53,7 +53,7 @@ const routes = [
   {
     id: 106,
     parent: null,
-    path: "/lighting/item",
+    path: "/product/item",
     exact: true,
     component: Item,
   },

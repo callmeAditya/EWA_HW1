@@ -109,20 +109,20 @@ const Products = () => {
       id: "104",
     },
   ];
-  checkpagetype(maker).map((item, id) => {
-    console.log(item?.image);
-  });
+
   return (
     <>
       <div className="row">
+        {/* {JSON.stringify(checkpagetype(maker))} */}
         {checkpagetype(maker).map((item, id) => (
           <div className="col-lg-4">
             <div
               onClick={() =>
-                history(`/lighting/item?maker=${item?.brand}&id=${item?.id}`)
+                history(`/product/item?type=${item?.type}&maker=${item?.brand}&id=${item?.id}`)
               }
               className="prod_box"
             >
+                {/* {JSON.stringify(item)} */}
               <img
                 alt="sananml"
                 // src="doorbell2.png"

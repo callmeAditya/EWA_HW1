@@ -6,6 +6,7 @@
         "brand": "Havells",
         "maker": "Havells",
         "name": "Havells syllium",
+        "type":"lighting",
         "image": "/images/lighting/lighting1.jpeg",
         "description": "Lorem ipsum magnate",
         "id": "hv101",
@@ -30,6 +31,7 @@
         "image": "/images/lighting/lighting2.jpeg",
         "description": "Lorem ipsum magnate",
         "id": "hv102",
+        "type":"lighting",
         "price": 250,
         "discount": 13,
         "warranty": 170,
@@ -52,6 +54,7 @@
         ]
       },
       {
+        "type":"lighting",
         "brand": "Syska",
         "maker": "Syska",
         "name": "Syska titan",
@@ -78,6 +81,7 @@
         ]
       },
       {
+        "type":"lighting",
         "brand": "Syska",
         "maker": "Syska",
         "name": "Syska Comet",
@@ -104,6 +108,7 @@
         ]
       },
       {
+        "type":"lighting",
         "brand": "Phillips",
         "maker": "Phillips",
         "name": "Phillips zenith",
@@ -136,6 +141,7 @@
         ]
       },
       {
+        "type":"lighting",
         "brand": "Phillips",
         "maker": "Phillips",
         "name": "Phillips coder",
@@ -160,6 +166,7 @@
     "header": "speaker",
     "data": [
       {
+        "type":"speaker",
         "brand": "Apple",
         "maker": "Apple",
         "name": "Apple mini",
@@ -180,6 +187,7 @@
         ]
       },
       {
+        "type":"speaker",
         "brand": "Apple",
         "maker": "Apple",
         "name": "Apple Homepod 2nd gen",
@@ -206,6 +214,7 @@
         ]
       },
       {
+        "type":"speaker",
         "brand": "Amazon",
         "maker": "Amazon",
         "name": "Amazon echo",
@@ -232,6 +241,7 @@
         ]
       },
       {
+        "type":"speaker",
         "brand": "Amazon",
         "maker": "Amazon",
         "name": "Amazon Home ",
@@ -258,6 +268,7 @@
         ]
       },
       {
+        "type":"speaker",
         "brand": "Google",
         "maker": "Google",
         "name": "Google nest 1st gen",
@@ -278,6 +289,7 @@
         ]
       },
       {
+        "type":"speaker",
         "brand": "Google",
         "maker": "Google",
         "name": "Google nest 2nd gen",
@@ -302,6 +314,7 @@
     "header": "doorbell",
     "data": [
       {
+        "type":"doorbell",
         "brand": "Ecobee",
         "maker": "Ecobee",
         "name": "Ecobee Samara",
@@ -328,6 +341,7 @@
         ]
       },
       {
+        "type":"doorbell",
         "brand": "Ecobee",
         "maker": "Ecobee",
         "name": "Ecobee Sonar",
@@ -354,6 +368,7 @@
         ]
       },
       {
+        "type":"doorbell",
         "brand": "Proscenic",
         "maker": "Proscenic",
         "name": "Proscenic Karen",
@@ -380,6 +395,7 @@
         ]
       },
       {
+        "type":"doorbell",
         "brand": "Proscenic",
         "maker": "Proscenic",
         "name": "Proscenic Allure",
@@ -406,6 +422,7 @@
         ]
       },
       {
+        "type":"doorbell",
         "brand": "Azzax",
         "maker": "Azzax",
         "name": "Azzax Hightone",
@@ -432,6 +449,7 @@
         ]
       },
       {
+        "type":"doorbell",
         "brand": "Azzax",
         "maker": "Azzax",
         "name": "Azzax pitch",
@@ -463,6 +481,7 @@
     "header": "thermostat",
     "data": [
       {
+        "type":"thermostat",
         "brand": "Honeywell",
         "maker": "Honeywell",
         "name": "Honeywell Therma",
@@ -489,6 +508,7 @@
         ]
       },
       {
+        "type":"thermostat",
         "brand": "NestLabs",
         "maker": "NestLabs",
         "name": "NestLabs Lena",
@@ -515,6 +535,7 @@
         ]
       },
       {
+        "type":"thermostat",
         "brand": "Emerson",
         "maker": "Emerson",
         "name": "Emerson Luna",
@@ -541,6 +562,7 @@
         ]
       },
       {
+        "type":"thermostat",
         "brand": "Schneider",
         "maker": "Schneider",
         "name": "Schneider Ultra",
@@ -567,6 +589,7 @@
         ]
       },
       {
+        "type":"thermostat",
         "brand": "Nortek",
         "maker": "Nortek",
         "name": "Nortek Stonehinge",
@@ -593,6 +616,7 @@
         ]
       },
       {
+        "type":"thermostat",
         "brand": "Tado",
         "maker": "Tado",
         "name": "Tado Damien",
@@ -624,6 +648,7 @@
     "header": "doorlocks",
     "data": [
       {
+        "type":"doorlocks",
         "brand": "Yale",
         "maker": "Yale",
         "name": "Yale Assure DigiLock",
@@ -650,6 +675,7 @@
         ]
       },
       {
+        "type":"doorlocks",
         "brand": "Kwikset",
         "maker": "Kwikset",
         "name": "Kwikset Halo",
@@ -676,6 +702,7 @@
         ]
       },
       {
+        "type":"doorlocks",
         "brand": "Schlage",
         "maker": "Schlage",
         "name": "Schlage Deadbolt",
@@ -702,6 +729,7 @@
         ]
       },
       {
+        "type":"doorlocks",
         "brand": "SwitchBot",
         "maker": "SwitchBot",
         "name": "SwitchBot Smart Lock",
@@ -728,6 +756,7 @@
         ]
       },
       {
+        "type":"doorlocks",
         "brand": "Ultraloq",
         "maker": "Ultraloq",
         "name": "Ultraloq U-Bolt",
@@ -754,6 +783,7 @@
         ]
       },
       {
+        "type":"doorlocks",
         "brand": "Wyze",
         "maker": "Wyze",
         "name": "Wyze Ultra",

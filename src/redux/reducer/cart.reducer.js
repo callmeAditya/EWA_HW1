@@ -37,6 +37,14 @@ export function cartReducer(state = initialState, action) {
                 placedorder: [...state?.placedorder, action?.payload]
                 // placedorder:[]
             }
+        case cartTypes.CANCEL_ORDER:
+            console.log('entered heere');
+            
+            return{
+                ...state,
+                placedorder: state?.placedorder?.filter(order=>order?.oid !== action?.payload?.oid)
+
+            }    
         case cartTypes.EMPTY_STATE_CART:
             let arr = state?.placedorder;
             return{

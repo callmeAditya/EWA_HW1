@@ -24,11 +24,17 @@ export function productsReducer(state = initialState, action) {
                 ...state,
                 products: [...exclude,arr]
             }
-        // case productTypes.DELETE_PRODUCT:
-        //     return{
-        //         ...state,
-        //         products: [...exclude,{...include[0], data: include[0]?.data?.filter(i=>i?.id !==action?.payload?.id)}]
-        //     }
+        case productTypes.DELETE_PRODUCT:
+            let filtered = arr?.data?.filter(item=>item?.id !== action?.payload?.id);
+            arr.data = filtered;
+            console.log([...exclude,arr]);
+            // console.log(filtered,action?.payload);
+            
+            
+            return{
+                ...state,
+                products: [...exclude, arr]
+            }
         // case productTypes.UPDATE_PRODUCT:
         //     let obj = include[0]?.data?.find(d=>d?.id === action?.payload.id);
         //     obj={...obj, ...action?.payload};

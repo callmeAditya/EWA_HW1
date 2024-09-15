@@ -14,7 +14,7 @@ const Header = () => {
 	}
   return (
     <header>
-      <div class="width">
+      <div className="width">
         <h1>
           <a href="/">
             Company<span>Name</span>
@@ -22,12 +22,12 @@ const Header = () => {
         </h1>
       </div>
       <nav>
-        <div class="width">
+        <div className="width">
           <ul>
-            <li class="start selected">
+            <li className="start selected">
               <a href="/">Home</a>
             </li>
-            <li class="">
+            <li className="">
               <a href="/lighting?maker=all">Lightings</a>
             </li>
             <li>
@@ -45,6 +45,8 @@ const Header = () => {
             <li>
               <a href="/cart">Cart</a>
             </li>
+			<li><a href="/account">Account</a></li>
+          	 	<li><a href="" onClick={handlelogout}>Logout</a></li>
           </ul>
         </div>
       </nav>
