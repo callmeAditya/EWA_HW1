@@ -39,7 +39,7 @@ const Products = () => {
         break;
       case "/doorlock":
         setArr([
-          ...products?.filter((item) => item?.header === "doorlocks")[0]?.data,
+          ...products?.filter((item) => item?.header === "doorlock")[0]?.data,
         ]);
         break;
       default:
@@ -119,7 +119,9 @@ const Products = () => {
           <div className="col-lg-4">
             <div
               onClick={() =>
-                history(`/lighting/item?maker=${item?.brand}&id=${item?.id}`)
+                history(
+                  `${location.pathname}/item?maker=${item?.brand}&id=${item?.id}`
+                )
               }
               className="prod_box"
             >

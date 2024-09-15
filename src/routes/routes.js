@@ -60,23 +60,52 @@ const routes = [
   {
     id: 107,
     parent: null,
+    path: "/speaker/item",
+    exact: true,
+    component: Item,
+  },
+  {
+    id: 108,
+    parent: null,
+    path: "/doorbell/item",
+    exact: true,
+    component: Item,
+  },
+  {
+    id: 109,
+    parent: null,
+    path: "/thermostat/item",
+    exact: true,
+    component: Item,
+  },
+  {
+    id: 110,
+    parent: null,
+    path: "/doorlock/item",
+    exact: true,
+    component: Item,
+  },
+  {
+    id: 111,
+    parent: null,
     path: "cart",
     exact: true,
     component: Cart,
   },
-  ,{
-    id:114,
+  {
+    id: 112,
     parent: null,
-    path:'checkout',
+    path: "checkout",
     exact: true,
-    component: Checkout
-},{
-    id:115,
+    component: Checkout,
+  },
+  {
+    id: 113,
     parent: null,
-    path:'account',
+    path: "account",
     exact: true,
-    component: Account
-},
+    component: Account,
+  },
 ];
 
 export default routes;
