@@ -16,10 +16,17 @@
         "rebate": 50,
         "accessories": [
           {
-            "type": "holder",
-            "description": "Lorem ipsum magnate",
+            "type": "wire",
+            "description": "Wires",
             "price": 40,
-            "image":"",
+            "image":"/images/lighting/accessory2.jpeg",
+            "id":"acc01"
+          },
+          {
+            "type": "holder",
+            "description": "Holder",
+            "price": 40,
+            "image":"/images/lighting/accessory1.webp",
             "id":"acc01"
           }
         ]
@@ -38,18 +45,18 @@
         "rebate": 40,
         "accessories": [
           {
-            "image": "",
-            "type": "holder",
-            "description": "Lorem ipsum magnate",
-            "price": 50,
-            "id":"acc02"
+            "type": "wire",
+            "description": "Wires",
+            "price": 40,
+            "image":"/images/lighting/accessory2.jpeg",
+            "id":"acc01"
           },
           {
-            "image": "",
-            "type": "remote",
-            "description": "Lorem ipsum magnate",
-            "price": 150,
-            "id":"acc03"
+            "type": "holder",
+            "description": "Holder",
+            "price": 40,
+            "image":"/images/lighting/accessory1.webp",
+            "id":"acc01"
           }
         ]
       },
@@ -67,16 +74,18 @@
         "rebate": 20,
         "accessories": [
           {
-            "image": "",
-            "type": "stand",
-            "description": "Lorem ipsum magnate",
-            "price": 50
+            "type": "wire",
+            "description": "Wires",
+            "price": 40,
+            "image":"/images/lighting/accessory2.jpeg",
+            "id":"acc01"
           },
           {
-            "image": "",
-            "type": "remote",
-            "description": "Lorem ipsum magnate",
-            "price": 190
+            "type": "holder",
+            "description": "Holder",
+            "price": 40,
+            "image":"/images/lighting/accessory1.webp",
+            "id":"acc01"
           }
         ]
       },
@@ -94,16 +103,18 @@
         "rebate": 22,
         "accessories": [
           {
-            "image": "",
-            "type": "stand",
-            "description": "Lorem ipsum magnate",
-            "price": 55
+            "type": "wire",
+            "description": "Wires",
+            "price": 40,
+            "image":"/images/lighting/accessory2.jpeg",
+            "id":"acc01"
           },
           {
-            "image": "",
-            "type": "remote",
-            "description": "Lorem ipsum magnate",
-            "price": 199
+            "type": "holder",
+            "description": "Holder",
+            "price": 40,
+            "image":"/images/lighting/accessory1.webp",
+            "id":"acc01"
           }
         ]
       },
@@ -121,22 +132,18 @@
         "rebate": 12,
         "accessories": [
           {
-            "image": "",
-            "type": "stand",
-            "description": "Lorem ipsum magnate",
-            "price": 57
+            "type": "wire",
+            "description": "Wires",
+            "price": 40,
+            "image":"/images/lighting/accessory2.jpeg",
+            "id":"acc01"
           },
           {
-            "image": "",
-            "type": "remote",
-            "description": "Lorem ipsum magnate",
-            "price": 185
-          },
-          {
-            "image": "",
-            "type": "lamp",
-            "description": "Lorem ipsum magnate",
-            "price": 110
+            "type": "holder",
+            "description": "Holder",
+            "price": 40,
+            "image":"/images/lighting/accessory1.webp",
+            "id":"acc01"
           }
         ]
       },
@@ -154,10 +161,18 @@
         "rebate": 25,
         "accessories": [
           {
-            "image": "",
-            "type": "remote",
-            "description": "Lorem ipsum magnate",
-            "price": 199
+            "type": "wire",
+            "description": "Wires",
+            "price": 40,
+            "image":"/images/lighting/accessory2.jpeg",
+            "id":"acc01"
+          },
+          {
+            "type": "holder",
+            "description": "Holder",
+            "price": 40,
+            "image":"/images/lighting/accessory1.webp",
+            "id":"acc02"
           }
         ]
       }
@@ -179,10 +194,18 @@
         "rebate": 30,
         "accessories": [
           {
-            "type": "holder",
+            "type": "Stand",
             "description": "Lorem ipsum magnate",
             "price": 40,
-            "image":""
+            "image":"/images/speaker/accessory1.jpg",
+            "id": "acc01"
+          },
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpg",
+            "id": "acc02"
           }
         ]
       },
@@ -200,16 +223,18 @@
         "rebate": 74,
         "accessories": [
           {
-            "image": "",
-            "type": "holder",
+            "type": "Stand",
             "description": "Lorem ipsum magnate",
-            "price": 59
+            "price": 40,
+            "image":"/images/speaker/accessory1.jpg",
+            "id": "acc01"
           },
           {
-            "image": "",
-            "type": "remote",
+            "type": "Wall mount",
             "description": "Lorem ipsum magnate",
-            "price": 150
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpg",
+            "id": "acc02"
           }
         ]
       },
@@ -227,16 +252,18 @@
         "rebate": 12,
         "accessories": [
           {
-            "image": "",
-            "type": "stand",
+            "type": "Stand",
             "description": "Lorem ipsum magnate",
-            "price": 34
+            "price": 40,
+            "image":"/images/speaker/accessory1.jpg",
+            "id": "acc01"
           },
           {
-            "image": "",
-            "type": "remote",
+            "type": "Wall mount",
             "description": "Lorem ipsum magnate",
-            "price": 89
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpg",
+            "id": "acc02"
           }
         ]
       },
@@ -254,16 +281,18 @@
         "rebate": 22,
         "accessories": [
           {
-            "image": "",
-            "type": "stand",
+            "type": "Stand",
             "description": "Lorem ipsum magnate",
-            "price": 55
+            "price": 40,
+            "image":"/images/speaker/accessory1.jpg",
+            "id": "acc01"
           },
           {
-            "image": "",
-            "type": "remote",
+            "type": "Wall mount",
             "description": "Lorem ipsum magnate",
-            "price": 199
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpg",
+            "id": "acc02"
           }
         ]
       },
@@ -281,10 +310,18 @@
         "rebate": 45,
         "accessories": [
           {
-            "image": "",
-            "type": "stand",
+            "type": "Stand",
             "description": "Lorem ipsum magnate",
-            "price": 69
+            "price": 40,
+            "image":"/images/speaker/accessory1.jpg",
+            "id": "acc01"
+          },
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpg",
+            "id": "acc02"
           }
         ]
       },
@@ -302,10 +339,18 @@
         "rebate": 35,
         "accessories": [
           {
-            "image": "",
-            "type": "remote",
+            "type": "Stand",
             "description": "Lorem ipsum magnate",
-            "price": 199
+            "price": 40,
+            "image":"/images/speaker/accessory1.jpg",
+            "id": "acc01"
+          },
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpg",
+            "id": "acc02"
           }
         ]
       }
@@ -326,18 +371,20 @@
         "warranty": 45,
         "rebate": 39,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorbells/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Wires",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpeg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -353,18 +400,20 @@
         "warranty": 49,
         "rebate": 89,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorbells/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Wires",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpeg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -380,18 +429,20 @@
         "warranty": 71,
         "rebate": 30,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorbells/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Wires",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpeg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -407,18 +458,20 @@
         "warranty": 125,
         "rebate": 117,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorbells/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Wires",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpeg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -434,18 +487,20 @@
         "warranty": 121,
         "rebate": 43,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorbells/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Wires",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpeg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -461,18 +516,20 @@
         "warranty": 123,
         "rebate": 55,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Wall mount",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorbells/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Wires",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/speaker/accessory2.jpeg",
+            "id": "acc02"
+          }
         ]
       }
     ]
@@ -493,18 +550,20 @@
         "warranty": 45,
         "rebate": 39,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Cover",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Cable",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory2.jpg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -520,18 +579,20 @@
         "warranty": 49,
         "rebate": 89,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Cover",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Cable",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory2.jpg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -547,18 +608,20 @@
         "warranty": 71,
         "rebate": 30,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Cover",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Cable",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory2.jpg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -574,18 +637,20 @@
         "warranty": 125,
         "rebate": 117,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Cover",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Cable",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory2.jpg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -601,18 +666,20 @@
         "warranty": 121,
         "rebate": 43,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Cover",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Cable",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory2.jpg",
+            "id": "acc02"
+          }
         ]
       },
       {
@@ -628,24 +695,26 @@
         "warranty": 123,
         "rebate": 55,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+            "type": "Cover",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory1.webp",
+            "id": "acc01"
+          },
+          {
+            "type": "Cable",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/thermostat/accessory2.jpg",
+            "id": "acc02"
+          }
         ]
       }
     ]
   },
   {
-    "header": "doorlocks",
+    "header": "doorlock",
     "data": [
       {
         "type":"doorlocks",
@@ -661,17 +730,14 @@
         "rebate": 39,
         "accessories": [
             {
-                "image": "",
-                "type": "camera",
+              
+                "type": "Latch",
                 "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
+                "price": 40,
+                "image":"/images/doorlock/accessory1.avif",
+                "id": "acc01"
               }
+            
         ]
       },
       {
@@ -687,18 +753,14 @@
         "warranty": 49,
         "rebate": 89,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+              
+            "type": "Latch",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorlock/accessory1.avif",
+            "id": "acc01"
+          }
         ]
       },
       {
@@ -714,18 +776,14 @@
         "warranty": 71,
         "rebate": 30,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+              
+            "type": "Latch",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorlock/accessory1.avif",
+            "id": "acc01"
+          }
         ]
       },
       {
@@ -741,18 +799,14 @@
         "warranty": 125,
         "rebate": 117,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+              
+            "type": "Latch",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorlock/accessory1.avif",
+            "id": "acc01"
+          }
         ]
       },
       {
@@ -768,18 +822,14 @@
         "warranty": 121,
         "rebate": 43,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+              
+            "type": "Latch",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorlock/accessory1.avif",
+            "id": "acc01"
+          }
         ]
       },
       {
@@ -795,18 +845,14 @@
         "warranty": 123,
         "rebate": 55,
         "accessories": [
-            {
-                "image": "",
-                "type": "camera",
-                "description": "Lorem ipsum magnate",
-                "price": 159
-              },
-              {
-                "image": "",
-                "type": "speaker",
-                "description": "Lorem ipsum magnate",
-                "price": 129
-              }
+          {
+              
+            "type": "Latch",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":"/images/doorlock/accessory1.avif",
+            "id": "acc01"
+          }
         ]
       }
     ]

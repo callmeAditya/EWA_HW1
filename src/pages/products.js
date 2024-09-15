@@ -39,7 +39,7 @@ const Products = () => {
         break;
       case "/doorlock":
         setArr([
-          ...products?.filter((item) => item?.header === "doorlocks")[0]?.data,
+          ...products?.filter((item) => item?.header === "doorlock")[0]?.data,
         ]);
         break;
       default:
